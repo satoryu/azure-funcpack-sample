@@ -1,12 +1,16 @@
 {
-  "disabled": false,
-  "bindings": [
-    {
-      "name": "myBlob",
-      "type": "blobTrigger",
-      "direction": "in",
-      "path": "samples-workitems/{name}",
-      "connection": ""
-    }
-  ]
+ "disabled": false,
+ "bindings": [
+  {
+   "name": "myBlob",
+   "type": "blobTrigger",
+   "direction": "in",
+   "path": "uploaded/{name}.csv",
+   "connection": "AzureWebJobsStorage"
+  }
+ ],
+ "_originalEntryPoint": false,
+ "_originalScriptFile": "index.js",
+ "scriptFile": "../.funcpack/index.js",
+ "entryPoint": "ImportCSVfile"
 }
