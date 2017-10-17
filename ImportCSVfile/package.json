@@ -1,0 +1,15 @@
+{
+  "name": "importcsvfile",
+  "version": "1.0.0",
+  "description": "The `BlobTrigger` makes it incredibly easy to react to new Blobs inside of Azure Blob Storage. This sample demonstrates a simple use case of processing data from a given Blob using JavaScript.",
+  "main": "index.js",
+  "dependencies": {
+    "csv": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
